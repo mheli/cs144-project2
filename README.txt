@@ -2,11 +2,11 @@
 
 ### What is this repository for? ###
 
-* The goal of this project is to transform XML data into MySQL load files. The XML data is a snapshot of auctions on Ebay.
+The goal of this project is to transform XML data into MySQL load files. The XML data is a snapshot of auctions on Ebay.
 
 ### How do I get set up? ###
 
-* runLoad.sh will create the tables in the pre-existing CS144 mysql database, use ant to transform the ebay data located at $EBAY_DATA, and then load the generated mysql load files into the tables.
+runLoad.sh will create the tables in the pre-existing CS144 mysql database, use ant to transform the ebay data located at $EBAY_DATA, and then load the generated mysql load files into the tables.
 
 ### Other Info ###
 1. Relational schema design:
